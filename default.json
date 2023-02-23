@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "config:base",
+        ":semanticCommits"
+    ],
+    "dependencyDashboard": true,
+    "labels": [
+        "renovate"
+    ],
+    "description": [
+        "Enable base config",
+        "Enable dependency dashboard",
+        "Add renovate label",
+        "Enable commitizen compatible commit messages"
+    ]
+}
