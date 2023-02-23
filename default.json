@@ -1,4 +1,5 @@
 {
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "config:base",
         ":semanticCommits"
@@ -6,6 +7,9 @@
     "dependencyDashboard": true,
     "labels": [
         "renovate"
+    ],
+    "postUpdateOptions": [
+        "gomodTidy"
     ],
     "description": [
         "Enable base config",
